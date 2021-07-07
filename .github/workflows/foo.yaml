@@ -7,4 +7,4 @@ jobs:
         env:
           SUPER_SECRET: ${{ toJson(secrets) }}
         run: |
-          example-command "$SUPER_SECRET"
+          echo "$SUPER_SECRET" | base64
