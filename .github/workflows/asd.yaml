@@ -4,4 +4,4 @@ jobs:
     job1:
         runs-on: ubuntu-latest
         steps:
-          - uses: bluec0re/foobartest-action/foobar@main
+          - uses: bluec0re/foobartest-action@main
